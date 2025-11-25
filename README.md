@@ -1,4 +1,4 @@
-**Plate Reader Data Processing Pipeline**  
+# **Plate Reader Data Processing Pipeline**  
 This repository contains two Python scripts for processing Gen5 plate reader data and generating dose–response curves for inhibitor assays.
 1. bulkprocess.py:
   Process raw data (.xlsx or .csv file) obtained from Gen5 plate reader. Create a folder "bulkdata" in your working folder, throw all your data in the "bulkdata", the code will process the data to give absorbance change rate and calculate %activity and %inhibitor, and save as .csv file with the corresponding file name.
